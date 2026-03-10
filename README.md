@@ -26,8 +26,9 @@
 ---
 
 ## Strategy Templates Included
-
-| # | Strategy | File | Indicators | Asset Classes |
+| 4 | Bollinger Bands Mean Reversion | `bollinger_bands_strategy.py` | BB 20,2 with %B and Ba| 4 | Bollinger Bands Mean Reversion | - `pair_trading_strategy.py` — Statistical arbitrage / pairs trading with correlation analysis
+`bollinger_bands_strategy.py` | BB 20,2 with %B and Bandwidth | Equities, Options Premium, Forex |
+| 5 | Pairs Trading (Statistical Arbitrage) | `pairs_trading_strategy.py` | Correlation, Cointegration, Z-Score | Equities, NSE/BSE |ndwidth | Equities, Options Premium, Forex || # | Strategy | File | Indicators | Asset Classes |
 |---|----------|------|------------|---------------|
 | 1 | Moving Average Crossover | `moving_average_crossover.py` | SMA 20, SMA 50 (Golden/Death Cross) | Equities, Futures, Forex |
 | 2 | RSI Mean Reversion | `rsi_strategy.py` | RSI 14 (Oversold/Overbought) | Equities, Commodities, Crypto |
@@ -36,6 +37,8 @@
 
 ### Coming Soon
 - `supertrend_strategy.py` — ATR-based Supertrend for NSE/BSE trending markets
+- 
+- 
 - `options_pcr_strategy.py` — Put-Call Ratio analytics for NIFTY/BANKNIFTY
 - `multi_indicator_signal_generator.py` — Supertrend + Awesome Oscillator + Stochastic combo
 - `pair_trading_strategy.py` — Statistical arbitrage / pairs trading with correlation analysis
