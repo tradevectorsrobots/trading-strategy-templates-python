@@ -16,9 +16,10 @@ matplotlib>=3.7.0
 statsmodels>=0.14.0
 seaborn>=0.12.2
 
-# Optional: broker API integrations
+# Broker API integrations
 # kiteconnect>=5.0.0         # Zerodha Kite Connect API
 # upstox-python-sdk>=2.0.0  # Upstox API
+ib-insync>=0.9.86           # Interactive Brokers (for 0dte strategy)
 
 # Optional: enhanced backtesting and analysis
 # ta>=0.11.0                # Technical Analysis library
