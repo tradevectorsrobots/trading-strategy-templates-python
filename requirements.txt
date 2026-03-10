@@ -3,6 +3,9 @@
 # Compatible with Python 3.8+
 
 # Data fetching
+statsmodels>=0.14.0
+seaborn>=0.12.2
+
 yfinance>=0.2.36
 
 # Data manipulation and analysis
