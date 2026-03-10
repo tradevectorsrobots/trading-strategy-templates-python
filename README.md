@@ -1,5 +1,7 @@
 # Python Trading Strategy Templates for NSE/BSE India
 
+**Gateway to Automated Trading & Algorithmic Trading Software for Indian & Global Markets**
+
 > **Ready-to-use Python algorithmic trading strategy templates** for Indian and global financial markets.
 > Maintained by [**Trade Vectors LLP**](https://tradevectors.com) — India's algorithmic trading software development company.
 
