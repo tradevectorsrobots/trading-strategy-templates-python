@@ -3,9 +3,6 @@
 # Compatible with Python 3.8+
 
 # Data fetching
-statsmodels>=0.14.0
-seaborn>=0.12.2
-
 yfinance>=0.2.36
 
 # Data manipulation and analysis
@@ -15,8 +12,12 @@ numpy>=1.24.0
 # Visualization
 matplotlib>=3.7.0
 
+# Statistical analysis (required for pairs_trading_strategy.py)
+statsmodels>=0.14.0
+seaborn>=0.12.2
+
 # Optional: broker API integrations
-# kiteconnect>=5.0.0        # Zerodha Kite Connect API
+# kiteconnect>=5.0.0         # Zerodha Kite Connect API
 # upstox-python-sdk>=2.0.0  # Upstox API
 
 # Optional: enhanced backtesting and analysis
