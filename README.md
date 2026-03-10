@@ -72,6 +72,14 @@ Trade Vectors builds custom trading systems for these platforms. These templates
 | **MultiCharts** | PowerLanguage | Multi-asset |
 | **IC Markets** | REST | Forex, CFDs |
 
+### Data Feed Providers
+
+| Provider | API Type | Data Coverage |
+|----------|----------|---------------|
+| **Nanex** | REST + WebSocket | Real-time market data, Level 2 |
+| **IQFeed (DTN)** | TCP/IP Socket | Equities, Futures, Forex, Options |
+| **CQG** | REST + FIX | Multi-asset global market data |
+
 ---
 
 ## Types of Trading Strategies Supported
